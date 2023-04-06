@@ -1,0 +1,33 @@
+/* Mobile First View */
+/* Photo Grid*/
+#row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	vertical-align: middle;
+}
+
+.column {
+	margin-top: 8px;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.column img {
+	padding: 10px;
+	width: 100%;
+}
+
+
+/* For Desktop*/
+@media only screen and (min-width: 768px) {
+	.column {
+		max-width: 50%;
+	}
+}
+/* Extra large Devices 1200px and up*/
+@media only screen and (min-width: 1200px) {
+	.column {
+		max-width: 25%;
+	}
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>InfoTech</title>
+	<link rel="stylesheet" href="general.css" type="text/css">
+	<link rel="stylesheet" href="header.css" type="text/css">
+	<link rel="stylesheet" href="contact.css" type="text/css">
+	<link rel="stylesheet" href="footer.css" type="text/css">
+	<link rel="stylesheet" href="order.css" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>InfoTech</h1>
+		<label for="hamburger_checkbox">
+			<img id="hamburger_image" src="images/hamburger_icon.svg" alt='Hamburger_Menu'>
+		</label>
+		<input type="checkbox" id="hamburger_checkbox">
+		<nav>
+			<a href="index.html">Index</a>
+			<a href="photos.html">Photos</a>
+			<a href="about.html">About</a>
+			<a class="active_nav" href="contact.html">Contact</a>
+			<a href="order.html">Order</a>
+		</nav>
+	</header>
+	<div>
+		<form action="submit-form.php" method="POST">
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname"><br>
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname"><br>
+			<label for="gender">Gender:</label><br>
+			<input type="text" id="gender" name="gender"><br>
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email"><br>
+			<label for="mobile">Mobile:</label><br>
+			<input type="tel" id="mobile" name="mobile"><br>
+			<label for="message">Message:</label><br>
+			<textarea id="message" name="message"></textarea><br>
+			<button type="submit">Send Info</button>
+		</form>
+	</div>
+
+	<footer>
+		<img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+		<br>
+		InfoTech Pty. Ltd<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+	</footer>
+
+</body>
+
+</html>
