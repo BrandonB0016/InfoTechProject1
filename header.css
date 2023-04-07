@@ -11,7 +11,7 @@ header {
 
 /* Style the image we use as a label for the hamburger menu checkbox */
 #hamburger_image {
-  background-color: purple;
+  background-color: rgb(255, 255, 255);
   display: block;
   margin-bottom: 20px;
   margin-left: auto;
@@ -86,3 +86,7 @@ nav a:focus {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+#hamburger_label {
+  color: white;
+}
